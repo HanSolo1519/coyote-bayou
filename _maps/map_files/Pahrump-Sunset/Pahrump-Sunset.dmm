@@ -12595,11 +12595,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "aRp" = (
-/obj/structure/closet,
-/obj/machinery/light,
 /obj/structure/closet{
 	anchored = 1
 	},
+/obj/machinery/light,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -17297,15 +17296,15 @@
 /area/f13/building/museum)
 "bhU" = (
 /obj/item/clothing/head/helmet/f13/motorcycle{
-	pixel_y = 8;
+	pixel_y = 10;
 	layer = 2.9
 	},
 /obj/item/clothing/glasses/f13/biker{
-	pixel_y = 6
+	pixel_y = 7
 	},
-/obj/structure/table/wood{
-	icon = 'icons/obj/crates.dmi';
-	icon_state = "largecrate"
+/obj/structure/table,
+/obj/item/clothing/suit/armor/light/leather/leather_jacket{
+	pixel_y = -2
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -19265,6 +19264,16 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/building/abandoned)
+"bsr" = (
+/obj/vehicle/ridden/wheelchair{
+	desc = "A wheelchair, that seems to be wheels, it seems to be moveable by person on the wheelchair and it picks up bitches.";
+	name = "hawtrod bitch magnet";
+	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "bsu" = (
 /obj/structure/closet,
 /obj/item/clothing/under/f13/ncrcf{
@@ -27103,7 +27112,6 @@
 /obj/item/clothing/under/rank/prisoner,
 /obj/item/clothing/shoes/sneakers/orange,
 /obj/item/restraints/handcuffs,
-/obj/item/clothing/shoes/ballandchain,
 /obj/item/clothing/mask/surgical/sloaff,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -32566,7 +32574,9 @@
 	},
 /area/f13/wasteland)
 "eGt" = (
-/obj/structure/closet,
+/obj/structure/closet{
+	anchored = 1
+	},
 /obj/item/throwing_star/spear,
 /obj/item/twohanded/spear/scrapspear,
 /obj/item/handsaw,
@@ -34179,6 +34189,7 @@
 "fcL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/workbench,
+/obj/item/clothing/head/welding/f13/fire,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -48365,7 +48376,7 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/caves)
 "jdv" = (
-/obj/item/candle/tribal_torch{
+/obj/structure/destructible/tribal_torch/lit{
 	pixel_y = 15
 	},
 /turf/open/indestructible/ground/outside/road,
@@ -59996,7 +60007,7 @@
 /turf/closed/wall/f13/store,
 /area/f13/building/hospital)
 "mxu" = (
-/obj/item/candle/tribal_torch{
+/obj/structure/destructible/tribal_torch/lit{
 	pixel_y = 15;
 	pixel_x = 5
 	},
@@ -80345,6 +80356,7 @@
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
+/obj/item/clothing/suit/armor/light/leather/leather_jacket,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -95897,7 +95909,7 @@
 	dir = 4;
 	density = 0
 	},
-/obj/item/candle/tribal_torch{
+/obj/structure/destructible/tribal_torch/lit{
 	pixel_y = 15
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -151498,7 +151510,7 @@ fFf
 bxS
 vGm
 bnO
-afS
+bsr
 afS
 mgq
 pWI
